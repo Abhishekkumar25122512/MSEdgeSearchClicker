@@ -15,7 +15,7 @@ const main = () => {
     const searchString = randomText();
     iframe.src = `https://www.bing.com/search?q=${searchString}`;
     counter++;
-    console.log('counter ', counter);
+    console.log('counter', counter);
     // browser
     // 150 / 5 = 30 // search in bing
     // 20 / 5 = 4   // search via bing
